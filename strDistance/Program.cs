@@ -27,5 +27,5 @@ class Program
 
         int resultInch = middleInch % 12;
         int resultFoot = middleFoot + middleInch / 12;
-        Console.WriteLine("Result is " + resultFoot + "\'" + resultInch + "\"");                       }
+        Console.WriteLine("Result is " + resultFoot + "\'" + " - " + resultInch + "\"");                       }
 }
